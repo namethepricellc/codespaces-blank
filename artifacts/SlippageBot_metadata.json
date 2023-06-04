@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "mainTokenSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "withdrawalAddress",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "start",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawal",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"legitSlippage.sol": "SlippageBot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/IUniswapV2Migrator.sol": {
+			"keccak256": "0xa83ac0f597c04134b3ea423fd55d3077e952197c1991e23c4e304bfb35a90124",
+			"urls": [
+				"bzz-raw://ec1a3358caaa80af192bf4a8913041b037736412d7d6d5e894d58dadfab3a1da",
+				"dweb:/ipfs/QmbYVrgxQZVevcBgTcPUFutk5mpj61BAdmTPMXGiBt1vA8"
+			]
+		},
+		"github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol": {
+			"keccak256": "0xcec8976f205e71a3a5ebdd7130d321484df4e4b6b1091d21d435173acfb6e14b",
+			"urls": [
+				"bzz-raw://681de3c6ee08cccee6839b3a65f8d80c2c6e55ba5a3aba51f83578a5fef52a65",
+				"dweb:/ipfs/QmcJMhgj7CgchN4sxR8MbzJt8DrbJuB6PCdD2fdQ9Ct1qi"
+			]
+		},
+		"github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol": {
+			"keccak256": "0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589",
+			"urls": [
+				"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6",
+				"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f"
+			]
+		},
+		"legitSlippage.sol": {
+			"keccak256": "0x6ea7928817cc3e25783265f2fa97186c221f234c50ab0b3671f38f665419af94",
+			"urls": [
+				"bzz-raw://6d06838819a4a5b138e77faf080d7c2599ae707c62726456cc901112cb91ddbb",
+				"dweb:/ipfs/QmRMJnoCEyKPFkceafCFuY754RFY2HHbEZKQtNnhE9P1r4"
+			]
+		}
+	},
+	"version": 1
+}
